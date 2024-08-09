@@ -1,0 +1,71 @@
+*{
+    box-sizing:border-box;
+    padding:0px;
+    margin:0px;
+  }
+  body{
+    justify-content:center;
+    display:grid;
+    align-items:center;
+    min-height:100vh;
+    
+  }
+  .container{
+    line-height:35px;
+    background-color:white;
+    min-height:300px;
+    min-width:300px;
+    border-radius:10px;
+    box-shadow:5px 5px 5px 5px;
+  }
+  .login{
+    margin-bottom:30px;
+    height:60px;
+    text-align:center;
+    background:linear-gradient(-135deg,#c850c0,#4158d0);
+    border-radius:10px 10px 0px 0px;
+    
+    
+  }
+  button{
+    text-align:center;
+    margin-left:30px;
+    background:linear-gradient(-135deg,#c850c0,#4158d0);
+    width:90vh;
+  }
+  .email{
+    min-height:auto;
+    min-width:auto;
+    
+  }
+  .remember a{
+    margin-left:30px;
+    
+  }
+  .email input{
+    margin-left:30px;
+    border-radius:5px;
+    height:30px;
+    width:30vh;
+    margin-left:40px;
+  }
+  .remember input{
+    margin-left:15px;
+  }
+  button{
+    width:250px;
+    margin-left:20px;
+    height:30px;
+    border-radius:10px;
+  }
+  .container form .email input{
+    padding-left:20px;
+    
+  }
+  .account{
+    text-align:center;
+  }
+  .email input:hover{
+    height:40px;
+  }
+ 
